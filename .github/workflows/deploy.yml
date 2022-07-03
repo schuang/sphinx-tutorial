@@ -27,7 +27,7 @@ jobs:
       #- name: install latex
       #  run: sudo apt-get install texlive-luatex latexmk texlive-latex-extra
 
-      - name: Set up Julia packages
+      - name: update pip
         run: pip install -U pip
       
       - name: Install requirements.txt
